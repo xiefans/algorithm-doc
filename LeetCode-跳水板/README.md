@@ -42,7 +42,7 @@ private void dfs(int shorter, int longer, int k, List<Integer> res, int sum) {
 
 缓过神来定睛一看，哦**(上升音调)**~ 原来是有很多重复元素在里面。我们先来探究下为什么会有这么多的重复元素， 这是该算法的解空间（太懒了，只画了k=3的情况）
 
-![](https://github.com/chenyufeng1991/NewsClient/raw/master/LeetCode-跳水板/p1.png)
+![](git@github.com:xiefans/algorithm-doc.git/raw/master/LeetCode-跳水板/p1.png)
 
 大家可以看到从根节点到叶子节点的路径就是一种组合
 
